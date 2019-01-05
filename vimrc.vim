@@ -83,8 +83,6 @@ set showmatch
 set listchars=tab:▸\ ,eol:¬
 " Enable by default:
 set list "
-
-let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 " -- end basics --
 
 
@@ -107,43 +105,46 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'scrooloose/syntastic'
 
 " nerdtree
-Plugin 'scrooloose/nerdtree'
+" Plugin 'scrooloose/nerdtree'
 
 " nerdtree tabs
-Plugin 'jistr/vim-nerdtree-tabs'
+" Plugin 'jistr/vim-nerdtree-tabs'
 
 " Git integration
 Plugin 'tpope/vim-fugitive'
 
 " Powerline
-Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+" Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " PEP8 checking
-Plugin 'nvie/vim-flake8'
+" Plugin 'nvie/vim-flake8'
 
 " folding
 Plugin 'tmhedberg/SimpylFold'
 
 " proper python indentation
-Plugin 'vim-scripts/indentpython.vim'
+" Plugin 'vim-scripts/indentpython.vim'
 
 " color schemes
 Plugin 'rafi/awesome-vim-colorschemes'
 
-" pywal
-Plugin 'dylanaraps/wal.vim'
-
 " Live LaTeX preview
-Plugin 'xuhdev/vim-latex-live-preview'
+" Plugin 'xuhdev/vim-latex-live-preview'
 
 " C++ highlighting
-Plugin 'octol/vim-cpp-enhanced-highlight'
+" Plugin 'octol/vim-cpp-enhanced-highlight'
 
 " Pandoc integration
-Plugin 'vim-pandoc/vim-pandoc'
+" Plugin 'vim-pandoc/vim-pandoc'
 
 " Pandoc syntax
-Plugin 'vim-pandoc/vim-pandoc-syntax'
+" Plugin 'vim-pandoc/vim-pandoc-syntax'
+
+" Python Jedi
+" Plugin 'davidhalter/jedi-vim'
+
+" Supertab
+Plugin 'ervandew/supertab'
 
 " All plugins must be added before the following line
 call vundle#end()
